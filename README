@@ -1,0 +1,5 @@
+CANsniff - sniffs the can bus
+
+The present system uses LPC2168 (http://www.nxp.com/products/microcontrollers/arm7/lpc2300/LPC2368FBD100.html) ARM7 microcontroller from NXP(Philips). It has two CAN ports, an USB port, an ethernet port and support for SD/MMC. The CAN controller is based on Philips SJA1000. Using the USB or ethernet port, data can be streamed in to the PC in very fast rate. So transfering of 1 Mbits/S data rates in the CAN bus to the PC is not a problem.
+
+There is an ADC port present in the system which in future can be used for plotting the CAN bus on the PC. During that time there is a need of isolating the USB from the system(microcontroller and associated components so that your PC wont get damaged) using some couplers instead of isolating the CAN transceiver from the microcontroller.
